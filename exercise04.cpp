@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 void print(int len, int wth);
 void input(int len, int wth);
@@ -14,8 +13,12 @@ int main() {
 
 // Do not change the print() function
 void print(int len, int wth) {
-   cout << "Length : " << len 
+   std::cout << "Length : " << len 
         << ", Width  : " << wth << endl;
 }
 
 // Implement the Input Function here
+void input(int len, int wth)
+{
+ 
+}
